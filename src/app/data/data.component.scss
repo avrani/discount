@@ -1,0 +1,9 @@
+.flex{
+    display: flex;
+    app-table{
+        flex-grow: 2;
+    }
+    app-details{
+        flex-grow: 1;
+    }
+}

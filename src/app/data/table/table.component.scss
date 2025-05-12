@@ -1,0 +1,33 @@
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+td {
+  cursor: pointer;
+}
+
+.container {
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+tr:hover {
+  background-color: #E8E8E8;
+}
+
+.selected{
+  background-color:silver;
+}

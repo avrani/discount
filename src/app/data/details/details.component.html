@@ -1,0 +1,35 @@
+ <div class="container">
+        <p>Details:</p>
+        <div>
+            <label>ID:</label><input [ngModel]="detailsData().student_id" disabled type="number">
+        </div>
+        <div>
+            <label>Name:</label><input [(ngModel)]="detailsData().name" type="text">
+        </div>
+        <div>
+            <label>Grade:</label><input [(ngModel)]="detailsData().grade" type="number">
+        </div>
+        <div>
+            <label>Email:</label><input [(ngModel)]="detailsData().email" type="email">
+        </div>
+        <div>
+            <label>Date Joined:</label><input [ngModel]="detailsData().date_joined|date" disabled type="text">
+        </div>
+        <div>
+            <label>Address</label><input [(ngModel)]="detailsData().address" type="text">
+        </div>
+        <div>
+            <label>City</label><input [(ngModel)]="detailsData().city" type="text">
+        </div>
+        <div>
+            <label>Countery</label><input [(ngModel)]="detailsData().country" type="text">
+        </div>
+        <div>
+            <label>ZIP</label><input [(ngModel)]="detailsData().zip" type="number">
+        </div>
+         <div>
+            <label>Subject</label><input [(ngModel)]="detailsData().subject_name" type="text">
+        </div>
+
+        
+</div> 

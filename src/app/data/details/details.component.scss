@@ -1,0 +1,15 @@
+.container {
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    p{
+        padding-left: 10x;
+        text-decoration: underline;
+    }
+    div {
+        padding:10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
